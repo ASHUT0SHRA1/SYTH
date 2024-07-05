@@ -8,7 +8,7 @@ const Home = () => {
                 Organize your work <br/> & Thoughts</h1> 
                 <p>
                     Become focused , Organized and calm with <br />
-                    todo App. The world's #1  .
+                    this sharing your thought App. The world's #1  .
                 </p>
                 <button className='home-btn'> Make Thoughts & Post Thoughts</button>
             </div>
