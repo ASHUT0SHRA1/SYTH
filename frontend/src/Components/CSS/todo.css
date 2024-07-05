@@ -1,0 +1,151 @@
+.outerdiv{
+  min-height: 74vh;
+  max-height: auto;
+  position: relative;
+}
+  /* Form styling */
+
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Form field styling */
+  .form-field {
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Input styling */
+  .input-text {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-text:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Label styling */
+  .label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: white;
+    padding: 0 5px;
+    color: #999;
+    font-size: 0.875rem;
+    transition: all 0.3s;
+  }
+  
+  .input-text:focus + .label,
+  .input-text:not(:placeholder-shown) + .label {
+    top: -20px;
+    left: 10px;
+    font-size: 0.75rem;
+    color: black;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(240,0,0,0.8);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Responsive design */
+  @media (min-width: 992px) {
+    .form-field.col-lg-6 {
+      width: 48%;
+    }
+  
+    .form-field.col-lg-12 {
+      width: 100%;
+    }
+  }
+
+
+  .todo-card {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .todo-card .card-title {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .todo-card .card-text {
+    color: black;
+  }
+  
+  .form-container {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .title {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-text {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+  }
+  
+  .label {
+    color: black;
+  }
+  
+  .submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .submit-btn:hover {
+    background-color: darkred;
+  }
+  
+  .todo-update1{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    height: 70vh;
+    width: 100%;
+    display: none;
+    position: fixed;
+  }

@@ -1,0 +1,12 @@
+.footer {
+    height: 0%;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background */
+    color: white; /* Light text color */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
